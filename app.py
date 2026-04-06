@@ -254,7 +254,7 @@ TOP 10 PRODUCTS BY REVENUE:
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/curewell_business_full_dataset.csv")
+    df = pd.read_csv("Data/curewell_business_full_dataset.csv")
     df["Profit_Status"] = df["Estimated_Profit_INR"].apply(
         lambda x: "Profitable" if x > 0 else "Loss"
     )
