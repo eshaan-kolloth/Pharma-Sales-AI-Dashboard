@@ -6,16 +6,11 @@ import requests
 import json
 import os
 from dotenv import load_dotenv
+import markdown
 
 load_dotenv()
 
-# Ensure markdown library is available
-try:
-    import markdown
-except ImportError:
-    import subprocess, sys
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "markdown", "-q"])
-    import markdown
+
 
 
 # --- Page Config ---
