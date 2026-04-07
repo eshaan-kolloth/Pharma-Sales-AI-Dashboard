@@ -1,215 +1,222 @@
-<div align="center">
+div align="center">
 
-<!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d5a27,30:4a7c3f,60:7ab648,100:c5e86c&height=250&section=header&text=🥦%20VeggieDash&fontSize=90&fontColor=ffffff&fontAlignY=50&desc=Your%20Vegetable%20Shop%20Analytics%20%7C%20From%20Farm%20to%20Figures!&descSize=16&descAlignY=72&descFontColor=e8f5d0&animation=fadeIn" width="100%"/>
+# 💊 Curewell Business Dashboard
 
-<br/>
+### *AI-Powered Pharma Intelligence at Your Fingertips*
 
-<!-- ANIMATED TAGLINE -->
-<img src="https://readme-typing-svg.demolab.com?font=Fredoka+One&size=22&duration=2000&pause=700&color=4a7c3f&center=true&vCenter=true&multiline=false&width=700&lines=🥕+Track+your+carrots...+and+your+cash!;🍅+See+what's+selling+%26+what's+rotting;🧅+Profit+insights+fresher+than+your+stock;🥬+3+pages+%C2%B7+8+charts+%C2%B7+zero+confusion;🫛+Built+with+Streamlit+%C2%B7+Plotly+%C2%B7+Python" alt="Typing SVG" />
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
+[![Groq](https://img.shields.io/badge/Groq_AI-LLaMA_3.3_70B-F55036?style=for-the-badge)](https://console.groq.com)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
-<br/><br/>
+---
 
-<!-- BADGES -->
-[![Python](https://img.shields.io/badge/Python_3.9+-3d7a2a?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Plotly](https://img.shields.io/badge/Plotly-3f4f75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![License](https://img.shields.io/badge/License-MIT-7ab648?style=for-the-badge)](LICENSE)
+**A full-stack, AI-enhanced business intelligence dashboard built for pharmaceutical sales analytics — featuring real-time KPI tracking, interactive charts, regional breakdowns, and a Groq-powered AI analyst (ARIA) that talks to your data.**
 
-<br/>
-
-```
-🌱 ─────── FRESH ─────── FAST ─────── INSIGHTFUL 🌱
-```
+[🚀 Live Demo](#) · [📸 Screenshots](#-screenshots) · [⚡ Quick Start](#-quick-start) · [🤖 Meet ARIA](#-meet-aria--your-ai-analyst)
 
 </div>
 
 ---
 
-## 🥦 What Is This?
+## ✨ What Makes This Special?
 
-> *"Ever stared at a pile of wilting spinach and wondered — where did it all go wrong?"*
-
-**VeggieDash** is a **Streamlit analytics dashboard** built for vegetable shop owners (or data nerds who love vegetables 🥕). Upload your shop's CSV data and instantly get beautiful charts, profit insights, and waste breakdowns — no spreadsheet headaches required.
-
-Whether you're running a corner sabzi shop or tracking a dozen items across weeks, this dashboard turns your raw numbers into **crispy, clean insights** — just like fresh veggies! 🌿
+> This isn't just another chart dashboard. Curewell combines **beautiful UI design**, **deep business analytics**, and **a conversational AI layer** that turns raw pharma sales data into actionable strategy — all in one Streamlit app.
 
 ---
 
-## ✨ Features at a Glance
+## 🗂️ Dashboard Pages
 
-```
-🥗 THE VEGGIE DASHBOARD MENU
-════════════════════════════════════════════════════════════
-  📊  DASHBOARD     →   Your daily stats, served fresh
-  📋  SUMMARY       →   The full nutritional breakdown
-  📁  RAW DATA      →   All ingredients, uncooked
-════════════════════════════════════════════════════════════
-```
-
-### 🌽 Page 1 — Dashboard
-The big picture. Eight charts, four KPI cards, zero confusion.
-
-| Chart | What it tells you |
-|-------|-----------------|
-| 📊 Sales by Vegetable | Which veggie is the crowd favourite? |
-| 📈 Sales Over Time | Spotting your busiest days |
-| 🗑️ Waste Breakdown | Which item is silently eating your profits? |
-| 💰 Revenue by Vegetable | Follow the money, not just the kilos |
-| 📈 Profit Over Time | Is the shop going up or down? |
-| ⚖️ Bought vs Sold vs Wasted | The holy trinity of shop math |
-| 📅 Weekend vs Weekday | Do Sundays actually pay off? |
-| 💹 Average Sell Price | Spot price spikes at a glance |
-
-### 🍆 Page 2 — Summary
-Your **smart report card** — best sellers, worst wasters, and profit champions, all ranked and colour-coded.
-
-- 🏆 **Best Seller** — the vegetable your customers can't get enough of
-- 🗑️ **Most Wasted** — the one quietly rotting in the corner
-- 💰 **Most Profitable** — not always the same as best seller (plot twist! 🎭)
-- 📅 Sales heatmap by day of week — plan your restocking smarter
-
-### 🥔 Page 3 — Raw Data
-- 🔍 Search & filter your records in real time
-- 📥 Download filtered data as CSV — take it anywhere
+| Page | Description |
+|------|-------------|
+| 📊 **Overview** | High-level KPIs — revenue, profit, units sold, customer count, order health |
+| 🏷️ **Brand & Product** | Brand-level revenue share, top products, profit margins by brand |
+| 🌍 **Region Analysis** | Geographic revenue breakdown, regional profitability heat maps |
+| 📞 **Sales & Leads** | Call outcome distributions, lead source performance tracking |
+| 💰 **Profit Analysis** | Profit vs. loss deep dives, margin analysis, vendor profitability |
+| 📁 **Raw Data** | Filterable, exportable full dataset view |
+| 🤖 **AI Insights** | ARIA — your on-demand AI business analyst powered by Groq |
 
 ---
 
-## 🌿 Sidebar Controls
+## 📸 Screenshots
 
-> *Filters so intuitive even your accountant uncle will figure it out*
+> *Coming soon — add your screenshots here!*
 
 ```
-🥕 Filter by Vegetable    →  Any combo you like
-📅 Filter by Day          →  Monday blues? Filter 'em out
-🗓️ Filter by Date Range   →  Zoom into any period instantly
+screenshots/
+├── overview.png
+├── brand_product.png
+├── region_analysis.png
+└── ai_insights.png
 ```
-
-All three filters update **every single chart and table simultaneously** — no refresh needed. 🪄
 
 ---
 
-## 🚀 Quick Start
+## 🤖 Meet ARIA — Your AI Analyst
 
-Three steps. That's it.
+**ARIA** (Advanced Revenue & Insights Analyst) is the AI brain of this dashboard. Powered by **Groq's LLaMA-3.3 70B** model, ARIA:
+
+- 🔍 **Reads your filtered data** — not generic responses, but answers grounded in your actual numbers
+- 💬 **Has a full chat interface** — ask anything, get strategic insights
+- 📄 **Generates full HTML reports** — downloadable, offline-ready intelligence reports with KPI cards, tables, and AI-written analysis sections
+- 🧠 **Covers all angles** — revenue, brand performance, regional trends, lead sources, product mix, and profit health
+
+**Example questions to ask ARIA:**
+```
+"Which brand has the best profit margin and why?"
+"What regions are underperforming and what could be causing it?"
+"Give me a strategic summary of this quarter's sales data."
+"Which products should we prioritize for the next sales push?"
+```
+
+---
+
+## 📊 Key Features
+
+- **8 KPI Banner Cards** with gradient designs across the Overview page
+- **15+ Interactive Plotly Charts** — pie charts, bar charts, horizontal rankings, scatter plots
+- **Expandable Data Tables** below every chart — see the numbers behind the visuals
+- **Sidebar Filters** — slice by Brand, Region, Product, Vendor, and Lead Source simultaneously
+- **Downloadable HTML Reports** — beautifully styled, print-ready, works offline
+- **Smart Scroll Behavior** — auto-scrolls to top on page navigation
+- **Dark-themed UI** with custom CSS, DM Sans font, and gradient banners
+
+---
+
+## ⚡ Quick Start
+
+### 1. Clone the repository
 
 ```bash
-# 1️⃣  Clone the repo
-git clone https://github.com/your-username/veggie-dashboard.git
-cd veggie-dashboard
+git clone https://github.com/your-username/curewell-dashboard.git
+cd curewell-dashboard
+```
 
-# 2️⃣  Install dependencies (only 4, we promise 🌱)
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# 3️⃣  Drop your CSV in the data folder & launch!
+### 3. Set up your Groq API key
+
+Create a `.env` file in the project root:
+
+```env
+GROQ_API_KEY=gsk_your_key_here
+```
+
+> Get your **free** API key at [console.groq.com](https://console.groq.com)
+
+### 4. Add your data
+
+Place your CSV file at:
+
+```
+Data/curewell_business_full_dataset.csv
+```
+
+Your CSV should include these columns:
+
+| Column | Description |
+|--------|-------------|
+| `Revenue_INR` | Order revenue in Indian Rupees |
+| `Estimated_Profit_INR` | Estimated profit per order |
+| `Units_Sold` | Number of units in the order |
+| `Customer_ID` | Unique customer identifier |
+| `Brand` | Product brand name |
+| `Product` | Product name |
+| `Region` | Sales region |
+| `Vendor` | Vendor/distributor name |
+| `Lead_Source` | How the lead was acquired |
+| `Product_Size` | Size category of the product |
+| `Call_Outcome` | Result of the sales call |
+
+### 5. Launch the dashboard
+
+```bash
 streamlit run app.py
 ```
 
-Then open **http://localhost:8501** and watch your veggie data bloom 🌸
+Open [http://localhost:8501](http://localhost:8501) in your browser. 🎉
 
 ---
 
-## 📁 Project Structure
+## 🗃️ Project Structure
 
 ```
-veggie-dashboard/
+curewell-dashboard/
 │
-├── 🐍 app.py                 ←  The whole app lives here
-├── 📦 requirements.txt       ←  4 dependencies, nothing more
-├── 📂 data/
-│   └── 🥦 vegetable_shop.csv ←  Your shop's data goes here
-└── 📖 README.md              ←  You're reading this!
+├── app.py                    # Main Streamlit application (all pages + AI)
+├── requirements.txt          # Python dependencies
+├── .env                      # Your API keys (not committed to git)
+├── .gitignore
+│
+└── Data/
+    └── curewell_business_full_dataset.csv   # Your pharma sales data
 ```
 
 ---
 
-## 📊 CSV Format
-
-Your data file should look like this:
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `Date` | date | The transaction date |
-| `Day` | string | Monday, Tuesday... |
-| `Item` | string | Vegetable name |
-| `Bought_kg` | float | How much you bought |
-| `Buy_Price` | float | Price you paid per kg (₹) |
-| `Sold_kg` | float | How much you sold |
-| `Sell_Price` | float | Price you charged per kg (₹) |
-| `Wasted_kg` | float | How much went to waste |
-
-> 💡 The app auto-calculates **Revenue**, **Cost**, and **Profit** for you — no formulas needed!
-
----
-
-## 📦 Requirements
+## 📦 Dependencies
 
 ```txt
-pandas      # Chop, slice, and dice your data 🔪
-numpy       # The math behind the magic 🔢
-streamlit   # Your app's fresh coat of paint 🎨
-plotly      # Charts so pretty they belong in a museum 🖼️
+streamlit      # Web app framework
+pandas         # Data manipulation
+numpy          # Numerical operations
+plotly         # Interactive charts
+requests       # Groq API calls
+python-dotenv  # Environment variable management
+markdown       # HTML report generation
 ```
 
 ---
 
-## 🗺️ Roadmap — What's Growing Next?
+## 🔐 Environment Variables
 
-```
- 🌱 PHASE 1 — PLANTED (DONE ✅)
- ├─ ✅  8-chart dashboard with live filters
- ├─ ✅  Best seller / waste / profit summary page
- ├─ ✅  Raw data viewer with search & CSV export
- ├─ ✅  Vegetable, Day & Date range filters
- └─ ✅  Auto-calculated Revenue, Cost, Profit
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GROQ_API_KEY` | Optional* | Enables ARIA AI Insights & report generation |
 
- 🌿 PHASE 2 — SPROUTING (COMING SOON 🔜)
- ├─ ⬜  Stock alerts — "You're running low on tomatoes!" 🍅
- ├─ ⬜  Restock recommendation engine
- ├─ ⬜  Weekly PDF report export
- └─ ⬜  Multi-shop / multi-location support
+*The dashboard runs fully without a Groq key — AI features are simply disabled until a key is provided (can also be entered directly in the sidebar).
 
- 🍅 PHASE 3 — RIPE (FUTURE 🌟)
- ├─ ⬜  Seasonal price trend predictions
- ├─ ⬜  WhatsApp daily report bot 📲
- ├─ ⬜  Hindi / regional language support 🇮🇳
- └─ ⬜  AI-powered waste reduction tips 🤖
-```
+---
+
+## 🛣️ Roadmap
+
+- [ ] Date range filter for time-series analysis
+- [ ] Multi-file CSV upload support
+- [ ] ARIA memory — persistent chat across sessions
+- [ ] Export charts as PNG
+- [ ] Role-based view (Sales Rep vs. Manager vs. Executive)
+- [ ] Email report delivery
 
 ---
 
 ## 🤝 Contributing
 
-Found a bug? Have a feature idea? Contributions are as welcome as fresh coriander on a curry! 🌿
+Contributions, issues, and feature requests are welcome!
 
-```bash
-git checkout -b feat/your-awesome-idea
-git commit -m "feat: added something crunchy 🥕"
-git push origin feat/your-awesome-idea
-# → Open a Pull Request!
-```
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-**MIT** — free to use, fork, and sell more vegetables with. 🥦
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
 <div align="center">
 
-```
-🥕 ─────────────────────────────────────────────── 🍅
-     Built with 🐍 Python · 📊 Streamlit · ❤️ 
-         For every sabzi shop that deserves
-              better than a notebook.
-🥬 ─────────────────────────────────────────────── 🌽
-```
+**Built with ❤️ for smarter pharma sales decisions**
 
-*Fresh data. Fresh decisions. Fresh profits.* 🌿
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:c5e86c,50:7ab648,100:2d5a27&height=120&section=footer&animation=fadeIn" width="100%"/>
+*If this project helped you, consider giving it a ⭐ on GitHub!*
 
 </div>
