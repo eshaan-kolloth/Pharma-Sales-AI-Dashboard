@@ -9,5 +9,15 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Visit the app
-        run: curl -sS --max-time 30 https://pharma-sales-ai-dashboard-bmjpnuwwjtmz6brgqntckf.streamlit.app/ || true
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Visit app, wake it up if it's sleeping
+        env:
+          APP_URL: https://pharma-sales-ai-dashboard-bmjpnuwwjtmz6brgqntckf.streamlit.app/
+        run: python .github/scripts/wake_app.py
